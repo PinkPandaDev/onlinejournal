@@ -41,6 +41,17 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 - Recommended editor settings and extensions are under `.vscode/`.
 - Code style is enforced with ESLint (flat config) and Tailwind CSS v4.
 
+### Firebase
+
+- Add your Firebase web config to `.env.local` (see `.env.example`).
+- Replace `YOUR_FIREBASE_PROJECT_ID` in `.firebaserc`.
+- Run emulators locally:
+
+```bash
+npm i -D firebase-tools
+npx firebase-tools emulators:start
+```
+
 ## Scripts
 
 - `npm run dev` – Start dev server (Turbopack)
