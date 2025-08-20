@@ -1,0 +1,16 @@
+* text=auto eol=lf
+
+# Binary assets
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+
+# SVGs should remain text for diffs
+*.svg text eol=lf
+
+# Ensure lockfiles don't get auto-merged
+package-lock.json -merge
+

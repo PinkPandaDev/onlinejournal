@@ -34,3 +34,16 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Development
+
+- Node version is pinned via `.nvmrc` (22.16.0). Use `nvm use`.
+- Recommended editor settings and extensions are under `.vscode/`.
+- Code style is enforced with ESLint (flat config) and Tailwind CSS v4.
+
+## Scripts
+
+- `npm run dev` – Start dev server (Turbopack)
+- `npm run build` – Production build (Turbopack)
+- `npm run start` – Start production server
+- `npm run lint` – Run ESLint
